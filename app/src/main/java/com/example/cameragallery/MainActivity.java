@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
    private static final int REQUEST_TAKE_PHOTO = 1;
    private Button openCam,openGallery;
    private String currentPhotoPath;
+   //dfg
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
