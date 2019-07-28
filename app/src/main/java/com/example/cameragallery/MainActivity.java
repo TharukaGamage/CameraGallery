@@ -24,7 +24,6 @@ public class MainActivity extends AppCompatActivity {
    private static  final int GALLERY_REQUEST_CODE = 1;
    private static final int REQUEST_TAKE_PHOTO = 1;
    private Button openCam,openGallery;
-   private String currentPhotoPath;
    //dfg
 
     @Override
@@ -54,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
         Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
         if (takePictureIntent.resolveActivity(getPackageManager()) != null) {
             startActivityForResult(takePictureIntent, REQUEST_IMAGE_CAPTURE);
+            //dsd
             }
     }
 
