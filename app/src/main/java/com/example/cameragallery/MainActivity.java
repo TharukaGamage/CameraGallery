@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
    private static  final int GALLERY_REQUEST_CODE = 1;
    private static final int REQUEST_TAKE_PHOTO = 1;
    private Button openCam,openGallery;
+   //Hellow World
    //dfg
 
     @Override
